@@ -16,7 +16,7 @@ const Work = () => {
           <div style={{backgroundImage: `url(${newtImg})` }} className='shawdow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div'>
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS App
+                NEWT
               </span>
               <div className='pt-8 text-center'>
                 <a href="home">
@@ -31,7 +31,7 @@ const Work = () => {
           <div style={{backgroundImage: `url(${fish})` }} className='shawdow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div'>
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS App
+                Fish Tracker
               </span>
               <div className='pt-8 text-center'>
                 <a href="home">
@@ -46,7 +46,7 @@ const Work = () => {
           <div style={{backgroundImage: `url(${newtImg})` }} className='shawdow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div'>
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS App
+                Tic-Tac-Toe
               </span>
               <div className='pt-8 text-center'>
                 <a href="home">
