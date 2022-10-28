@@ -1,6 +1,7 @@
 import React from 'react'
 import newtImg from '../assets/newt.png'
 import fish from '../assets/fish-tracker.png'
+import ttt from '../assets/ttt.png'
 
 const Work = () => {
   return (
@@ -19,10 +20,10 @@ const Work = () => {
                 NEWT
               </span>
               <div className='pt-8 text-center'>
-                <a href="home">
+                <a href="https://newt-activity.netlify.app/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-400 font-bold text-lg'>Deployed</button>
                 </a>
-                <a href="home">
+                <a href="https://github.com/UncleHagi/newt-front-end">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-400 font-bold text-lg'>GitHub</button>
                 </a>
               </div>
@@ -34,25 +35,25 @@ const Work = () => {
                 Fish Tracker
               </span>
               <div className='pt-8 text-center'>
-                <a href="home">
+                <a href="https://fish-tracker.herokuapp.com/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-400 font-bold text-lg'>Deployed</button>
                 </a>
-                <a href="home">
+                <a href="https://github.com/UncleHagi/fish-tracker">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-400 font-bold text-lg'>GitHub</button>
                 </a>
               </div>
             </div>
           </div>
-          <div style={{backgroundImage: `url(${newtImg})` }} className='shawdow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div'>
+          <div style={{backgroundImage: `url(${ttt})` }} className='shawdow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div'>
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
                 Tic-Tac-Toe
               </span>
               <div className='pt-8 text-center'>
-                <a href="home">
+                <a href="https://unclehagi-ttt.netlify.app/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-400 font-bold text-lg'>Deployed</button>
                 </a>
-                <a href="home">
+                <a href="https://github.com/UncleHagi/ttt-weekend">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-400 font-bold text-lg'>GitHub</button>
                 </a>
               </div>
