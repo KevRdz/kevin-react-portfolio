@@ -8,6 +8,20 @@ import {Link} from 'react-scroll'
 const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
+  const [copySuccess, setCopySuccess] = useState('');
+
+  const copyToClipBoard = async copyMe => {
+    try {
+      await navigator.clipboard.writeText(copyMe);
+      setCopySuccess('Copied!');
+    } catch (err) {
+      setCopySuccess('Failed to copy!');
+    }
+
+    setTimeout(() => {
+      setCopySuccess(false)
+    }, 1500);
+  };
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-400'>
@@ -78,22 +92,23 @@ const Navbar = () => {
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-[#0072b1]'>
-            <a className='flex justify-between items-center w-full text-white' href='/'>
+            <a className='flex justify-between items-center w-full text-white' href='https://www.linkedin.com/in/kevin-a-rodriguez/'>
               Linkedin <FaLinkedin size={50}/>
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-[#171515]'>
-            <a className='flex justify-between items-center w-full text-white' href='/'>
+            <a className='flex justify-between items-center w-full text-white' href='https://github.com/UncleHagi'>
               GitHub <FaGithub size={50}/>
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-orange-500'>
-            <a className='flex justify-between items-center w-full text-white' href='/'>
+            <button className='flex justify-between items-center w-full text-white' onClick={() =>  copyToClipBoard('kevin.rodriguez678@gmail.com')}>
               E-mail <HiOutlineMail size={50}/>
-            </a>
+            </button>
+            <p className='text-white font-bold text-l'>{copySuccess}</p>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-slate-400'>
-            <a className='flex justify-between items-center w-full text-white' href='/'>
+            <a className='flex justify-between items-center w-full text-white' href='https://docs.google.com/document/d/1l-kuFinHB2vPJoOoju5FbZBICwc9s0fyiXB0I4syWXI/edit?usp=share_link'>
               Resume <BsFillPersonLinesFill size={50}/>
             </a>
           </li>
