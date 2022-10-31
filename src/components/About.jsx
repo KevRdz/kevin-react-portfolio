@@ -15,7 +15,7 @@ const About = () => {
               <p>Hi, I'm Kevin, nice to meet you. Please take a look around.</p>
             </div>
             <div>
-              <p></p>
+              <p>I am a hardworking and driven individual who is always looking to better myself. My hobbies include fishing, camping, sports, and playing video games. I like to try new things, learn new things, and spend time with friends and family. I am always up for a challenge. With a positive mindset and determination, anything is possible.</p>
             </div>
           </div>
       </div>
