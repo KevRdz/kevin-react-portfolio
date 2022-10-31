@@ -21,10 +21,10 @@ const Work = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href="https://newt-activity.netlify.app/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-400 font-bold text-lg'>Deployed</button>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Deployed</button>
                 </a>
                 <a href="https://github.com/UncleHagi/newt-front-end">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-400 font-bold text-lg'>GitHub</button>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>GitHub</button>
                 </a>
               </div>
             </div>
@@ -36,10 +36,10 @@ const Work = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href="https://fish-tracker.herokuapp.com/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-400 font-bold text-lg'>Deployed</button>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Deployed</button>
                 </a>
                 <a href="https://github.com/UncleHagi/fish-tracker">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-400 font-bold text-lg'>GitHub</button>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>GitHub</button>
                 </a>
               </div>
             </div>
@@ -51,10 +51,10 @@ const Work = () => {
               </span>
               <div className='pt-8 text-center'>
                 <a href="https://unclehagi-ttt.netlify.app/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-400 font-bold text-lg'>Deployed</button>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Deployed</button>
                 </a>
                 <a href="https://github.com/UncleHagi/ttt-weekend">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-400 font-bold text-lg'>GitHub</button>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>GitHub</button>
                 </a>
               </div>
             </div>
