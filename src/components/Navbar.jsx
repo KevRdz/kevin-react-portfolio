@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Logo from "../assets/KR-Logo.png"
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
+import {TbCertificate} from 'react-icons/tb'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll'
 
@@ -110,6 +111,11 @@ const Navbar = () => {
           <li className='w-[165px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-slate-400'>
             <a className='flex justify-between items-center w-full text-white' href='https://docs.google.com/document/d/1l-kuFinHB2vPJoOoju5FbZBICwc9s0fyiXB0I4syWXI/edit?usp=share_link'>
               Resume <BsFillPersonLinesFill size={50}/>
+            </a>
+          </li>
+          <li className='w-[165px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-[#3EB489]'>
+            <a className='flex justify-between items-center w-full text-white' href='https://drive.google.com/file/d/1t3j5d3CMymhy1xOKR7-HsZXxZOfaYZko/view?usp=share_link'>
+              GA Certificate <TbCertificate size={50}/>
             </a>
           </li>
         </ul>
