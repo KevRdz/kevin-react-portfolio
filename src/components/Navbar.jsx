@@ -63,30 +63,56 @@ const Navbar = () => {
       </div>
 
       <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-        <li className='py-6 text-4xl'>
+        <li className='py-4 text-4xl'>
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-4 text-4xl'>
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-4 text-4xl'>
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-4 text-4xl'>
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='p-4 pb-10 text-4xl'>
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
+        </li>
+        <li className='w-screen h-[60px] flex justify-between items-center bg-[#0072b1]'>
+          <a className='flex gap-2 justify-center items-center w-full text-white p-2' href='https://www.linkedin.com/in/kevin-a-rodriguez/'>
+            Linkedin <FaLinkedin size={50}/>
+          </a>
+        </li>
+        <li className='w-screen h-[60px] flex justify-between items-center bg-[#171515]'>
+          <a className='flex justify-center items-center w-full text-white p-2 gap-2' href='https://github.com/UncleHagi'>
+            GitHub <FaGithub size={50}/>
+          </a>
+        </li>
+        <li className='w-screen h-[60px] flex justify-between items-center bg-orange-500'>
+          <button className='flex justify-center items-center w-full text-white p-2 gap-2' onClick={() =>  copyToClipBoard('kevin.rodriguez678@gmail.com')}>
+            E-mail <HiOutlineMail size={50}/>
+          </button>
+        </li>
+        <p className='text-white font-bold text-l'>{copySuccess}</p>
+        <li className='w-screen h-[60px] flex justify-between items-center bg-slate-400'>
+          <a className='flex justify-center items-center w-full text-white p-2 gap-2' href='https://docs.google.com/document/d/1l-kuFinHB2vPJoOoju5FbZBICwc9s0fyiXB0I4syWXI/edit?usp=share_link'>
+            Resume <BsFillPersonLinesFill size={50}/>
+          </a>
+        </li>
+        <li className='w-screen h-[60px] flex justify-between items-center bg-[#3EB489]'>
+          <a className='flex justify-center items-center w-full text-white p-2 gap-2' href='https://drive.google.com/file/d/1t3j5d3CMymhy1xOKR7-HsZXxZOfaYZko/view?usp=share_link'>
+            GA Certificate <TbCertificate size={50}/>
+          </a>
         </li>
       </ul>
 
