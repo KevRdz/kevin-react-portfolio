@@ -116,7 +116,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+      <div className='hidden lg:flex fixed flex-col top-[30%] left-0'>
         <ul>
           <li className='w-[165px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-[#0072b1]'>
             <a className='flex justify-between items-center w-full text-white' href='https://www.linkedin.com/in/kevin-a-rodriguez/'>
