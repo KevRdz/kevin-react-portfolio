@@ -133,7 +133,7 @@ const Navbar = () => {
               E-mail <HiOutlineMail size={50}/>
             </button>
           </li>
-          <p className='text-white font-bold text-l'>{copySuccess}</p>
+          <p className='text-white font-bold text-l flex items-center justify-center'>{copySuccess}</p>
           <li className='w-[165px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-slate-400'>
             <a className='flex justify-between items-center w-full text-white' href='https://docs.google.com/document/d/1l-kuFinHB2vPJoOoju5FbZBICwc9s0fyiXB0I4syWXI/edit?usp=share_link'>
               Resume <BsFillPersonLinesFill size={50}/>
