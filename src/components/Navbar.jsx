@@ -94,7 +94,7 @@ const Navbar = () => {
           </a>
         </li>
         <li className='w-screen h-[60px] flex justify-between items-center bg-[#171515]'>
-          <a className='flex justify-center items-center w-full text-white p-2 gap-2' href='https://github.com/UncleHagi'>
+          <a className='flex justify-center items-center w-full text-white p-2 gap-2' href='https://github.com/KevRdz'>
             GitHub <FaGithub size={50}/>
           </a>
         </li>
@@ -124,7 +124,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className='w-[165px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-[#171515]'>
-            <a className='flex justify-between items-center w-full text-white' href='https://github.com/UncleHagi'>
+            <a className='flex justify-between items-center w-full text-white' href='https://github.com/KevRdz'>
               GitHub <FaGithub size={50}/>
             </a>
           </li>
