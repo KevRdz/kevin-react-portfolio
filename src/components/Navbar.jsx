@@ -105,7 +105,7 @@ const Navbar = () => {
         </li>
         <p className='text-white font-bold text-l'>{copySuccess}</p>
         <li className='w-screen h-[60px] flex justify-between items-center bg-slate-400'>
-          <a className='flex justify-center items-center w-full text-white p-2 gap-2' href='https://docs.google.com/document/d/1l-kuFinHB2vPJoOoju5FbZBICwc9s0fyiXB0I4syWXI/edit?usp=share_link'>
+          <a className='flex justify-center items-center w-full text-white p-2 gap-2' href='https://docs.google.com/document/d/16ac7_8xfFBxeQJxijYDFjMtEjsab7gzrhWsSneQEaOU/edit?usp=share_link'>
             Resume <BsFillPersonLinesFill size={50}/>
           </a>
         </li>
@@ -135,7 +135,7 @@ const Navbar = () => {
           </li>
           <p className='text-white font-bold text-l flex items-center justify-center'>{copySuccess}</p>
           <li className='w-[165px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-slate-400'>
-            <a className='flex justify-between items-center w-full text-white' href='https://docs.google.com/document/d/1l-kuFinHB2vPJoOoju5FbZBICwc9s0fyiXB0I4syWXI/edit?usp=share_link'>
+            <a className='flex justify-between items-center w-full text-white' href='https://docs.google.com/document/d/16ac7_8xfFBxeQJxijYDFjMtEjsab7gzrhWsSneQEaOU/edit?usp=share_link'>
               Resume <BsFillPersonLinesFill size={50}/>
             </a>
           </li>
