@@ -2,6 +2,7 @@ import React from 'react'
 import newtImg from '../assets/newt.png'
 import fish from '../assets/fish-tracker.png'
 import ttt from '../assets/ttt.png'
+import crypto from '../assets/crypto-scanner.png'
 
 const Work = () => {
   return (
@@ -23,7 +24,7 @@ const Work = () => {
                 <a href="https://newt-activity.netlify.app/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Deployed</button>
                 </a>
-                <a href="https://github.com/UncleHagi/newt-front-end">
+                <a href="https://github.com/KevRdz/newt-front-end">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>GitHub</button>
                 </a>
               </div>
@@ -50,10 +51,25 @@ const Work = () => {
                 Tic-Tac-Toe
               </span>
               <div className='pt-8 text-center'>
-                <a href="https://unclehagi-ttt.netlify.app/">
+                <a href="https://kevrdz-ttt.netlify.app/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Deployed</button>
                 </a>
-                <a href="https://github.com/UncleHagi/ttt-weekend">
+                <a href="https://github.com/KevRdz/ttt-weekend">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>GitHub</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div style={{backgroundImage: `url(${crypto})` }} className='shawdow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div'>
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Crypto Scanner
+              </span>
+              <div className='pt-8 text-center'>
+                <a href="https://crypto-scanner.netlify.app/">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Deployed</button>
+                </a>
+                <a href="https://github.com/KevRdz/crypto-scanner">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>GitHub</button>
                 </a>
               </div>
